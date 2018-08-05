@@ -12,7 +12,6 @@ dotnet clean
 dotnet publish -o ../../testlib
 cd ../..
 
-# compile neo contract to avm
 cd testlib
 dotnet ./neon.dll ./HelloSmartContracts.dll
 cd ..
